@@ -72,7 +72,7 @@ public class CommandeDAO {
 			commande.setId(rs.getInt(COL_ID));
 			// TODO : récuperer tous les éléments de la société
 			int idSociete = rs.getInt(COL_SOCIETE);
-			commande.setPoidsTotal(rs.getFloat(COL_POIDS));
+			//commande.setPoidsTotal(rs.getFloat(COL_POIDS));
 			commande.setStatut(ManipEnumStatut.StringToEnum(rs.getString(COL_STATUT)));
 			commande.setDateCommande(ManipDate.dateSQLVersUtil(rs.getDate(COL_DATE)));
 			Employe employe = new Employe();
