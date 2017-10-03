@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+<Resource name="jdbc/Expeditor" auth="Container"
+type="javax.sql.DataSource"
+driverClassName= "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+url= "jdbc:sqlserver://localhost:1433;databasename=Expeditor;"
+username="sa" password="Pa$$word"
+maxActive="20" maxIdle="10"/>
+</Context>
