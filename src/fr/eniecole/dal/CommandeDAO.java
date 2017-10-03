@@ -55,7 +55,7 @@ public class CommandeDAO {
 		return listeCommandes;
 	}
 	
-	public Map<Employe, Integer> getNbCommandesParEmploye(){
+	public Map<Employe, Integer> getNbCommandesParEmploye() throws Exception{
 		Map<Employe, Integer> nbCommandes = new HashMap<>();
 		try(Connection cnx = AccesBase.getConnection()){
 			//PreparedStatement cmd = cnx.prepareStatement(sql);

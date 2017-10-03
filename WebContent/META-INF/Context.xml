@@ -4,6 +4,6 @@
 <Resource name="jdbc/Expeditor" auth="Container"
 type="javax.sql.DataSource"
 driverClassName= "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-url= "jdbc:sqlserver://10.44.101.7:1433;database=Expeditor;user=sa;password=Pa$$word;"
+url= "jdbc:sqlserver://44-UC45-13:1433;database=Expeditor;user=sa;password=Pa$$w0rd;"
 maxActive="20" maxIdle="10"/>
 </Context>
