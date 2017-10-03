@@ -1,0 +1,9 @@
+package fr.eniecole.model;
+
+public class Societe {
+
+	public Societe() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
