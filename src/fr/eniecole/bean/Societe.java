@@ -14,7 +14,7 @@ public class Societe implements Serializable{
 	
 	
 	public Societe() {
-	
+	super();
 	}
 	
 	

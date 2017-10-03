@@ -1,7 +1,8 @@
 package fr.eniecole.dal;
+import fr.eniecole.bean.Societe;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.logging.Logger;
 
 public class SocieteDAO {
@@ -13,5 +14,16 @@ public class SocieteDAO {
 	
 	
 	
-
+	/**
+	 * 
+	 */
+	public Societe itemBuilder(ResultSet rs) throws SQLException {
+	Societe societe = new Societe();
+	societe.setId(rs.getInt(COL_ID));
+	societe.setAdresse(rs.getString(COL_ADRESSE));
+	societe.setNom(rs.getString(COL_NOM));
+	
+	return societe;
+	
+	}
 }
