@@ -1,4 +1,4 @@
-package fr.eniecole.model;
+package fr.eniecole.bean;
 
 public class Article {
 
