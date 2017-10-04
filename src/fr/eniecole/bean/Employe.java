@@ -18,6 +18,18 @@ public class Employe implements Serializable {
 	public Employe() {
 		super();
 	}
+	
+	
+	public Employe(int id, String nom, String prenom, Employe_Manager_Enum role, String email, String password) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.role = role;
+		this.email = email;
+		this.password = password;
+	}
+
+
 	public int getId() {
 		return id;
 	}

@@ -1,0 +1,9 @@
+package fr.eniecole.model;
+
+public class Employe {
+
+	public Employe() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
