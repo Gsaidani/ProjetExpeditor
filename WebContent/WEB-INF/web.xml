@@ -16,4 +16,14 @@
     <res-auth>Container</res-auth>
     <res-sharing-scope>Shareable</res-sharing-scope>
   </resource-ref>
+  <servlet>
+    <description></description>
+    <display-name>CommandePrioritaireServlet</display-name>
+    <servlet-name>CommandePrioritaireServlet</servlet-name>
+    <servlet-class>fr.eniecole.servlet.CommandePrioritaireServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CommandePrioritaireServlet</servlet-name>
+    <url-pattern>/CommandePrioritaireServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
